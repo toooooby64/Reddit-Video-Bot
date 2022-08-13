@@ -9,7 +9,7 @@ from moviepy.editor import *
 files = []
 
 def create_tts_files(picked_post):
-    aws_session = boto3.Session(aws_access_key_id='AKIASINWYKR26UMG2WFQ' , aws_secret_access_key='6UAgzjBipqa6vww0pQ4SUsd4zsovD3D1wjNgad6B')
+    aws_session = boto3.Session(aws_access_key_id='enter your info' , aws_secret_access_key='Enter your info')
     client = aws_session.client(service_name='polly')
     length = 0
     i = 0
