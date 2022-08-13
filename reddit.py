@@ -8,8 +8,8 @@ import boto3
 
 def connect_to_reddit():
     reddit = praw.Reddit(
-        client_id="V0fNmBNycUyDAq2-WTSybQ",
-        client_secret="GdwSr-4_TC_Q0QKZA-m0-tOoC9UA-Q",
+        client_id="Enter your info",
+        client_secret="Enter your info",
         user_agent="my reddit bot",
     )
     return reddit
